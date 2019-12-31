@@ -2,6 +2,5 @@ version: '3'
 services:
   web:
     build: .
-    image: exampleserver:lastest
     ports:
       - "80:8080"
